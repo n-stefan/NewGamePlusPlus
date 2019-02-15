@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="NewGamePlusPlus" displayName="Mods.mods_ngpp">
+		<VisibleVars>
+			<Var id="MaxPlayerLevel" displayName="mod_ngpp_maxplayerlevel" displayType="SLIDER;100;999;899" tags="customDisplayName" visibilityCondition="!mainMenu"/>
+			<Var id="NewGamePlusPlusLevel" displayName="mod_ngpp_newgamepluspluslevel" displayType="SLIDER;30;999;969" tags="customDisplayName" visibilityCondition="!mainMenu"/>
+			<Var id="NoEquipmentLevelRequirement" displayName="mod_ngpp_noequipmentlevelrequirement" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="EquipmentLeveling" displayName="mod_ngpp_equipmentleveling" displayType="OPTIONS" tags="customNames;customDisplayName" visibilityCondition="!mainMenu">
+				<OptionsArray>
+					<Option id="0" displayName="mod_ngpp_equipmentlevelingoff">
+						<Entry varId="EquipmentLeveling" value="0"/>
+					</Option>
+					<Option id="1" displayName="mod_ngpp_equipmentlevelingrestore">
+						<Entry varId="EquipmentLeveling" value="1"/>
+					</Option>
+					<Option id="2" displayName="mod_ngpp_equipmentlevelingmatch">
+						<Entry varId="EquipmentLeveling" value="2"/>
+					</Option>
+					<Option id="3" displayName="mod_ngpp_equipmentlevelingvanilla">
+						<Entry varId="EquipmentLeveling" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="MaxDamageTaken" displayName="mod_ngpp_maxdamagetaken" displayType="SLIDER;10;100;90" tags="customDisplayName"/>
+			<Var id="MaxDamageDealt" displayName="mod_ngpp_maxdamagedealt" displayType="SLIDER;10;100;90" tags="customDisplayName"/>
+			<Var id="RichMerchants" displayName="mod_ngpp_richmerchants" displayType="TOGGLE" tags="customDisplayName"/>
+		</VisibleVars>
+	</Group>
+</UserConfig>
