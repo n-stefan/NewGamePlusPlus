@@ -21,6 +21,7 @@
 					</Option>
 				</OptionsArray>
 			</Var>
+			<Var id="EquipmentLevelingMatchAll" displayName="mod_ngpp_equipmentlevelingmatchall" displayType="TOGGLE" tags="customDisplayName" visibilityCondition="!mainMenu"/>
 			<Var id="MaxDamageTaken" displayName="mod_ngpp_maxdamagetaken" displayType="SLIDER;10;100;90" tags="customDisplayName"/>
 			<Var id="MaxDamageDealt" displayName="mod_ngpp_maxdamagedealt" displayType="SLIDER;10;100;90" tags="customDisplayName"/>
 			<Var id="RichMerchants" displayName="mod_ngpp_richmerchants" displayType="TOGGLE" tags="customDisplayName"/>
